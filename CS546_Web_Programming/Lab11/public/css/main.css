@@ -1,0 +1,29 @@
+/*
+You are NOT required to use CSS for this lab (but you can if you want to).
+*/
+p {
+    margin: 0;  /* Remove margin */
+    padding: 0; /* Remove padding */
+}
+
+ul {
+    margin: 0;  /* Remove margin */
+    padding: 0; /* Remove padding */
+}
+
+#homeLink {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer {
+    margin-top: 15px;
+}
+
+#showList {
+    margin-bottom: 15px;
+}
+
+form {
+    margin-bottom: 15px;
+}

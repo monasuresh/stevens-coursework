@@ -1,0 +1,81 @@
+.body-style {
+    font-family: 'Comic Sans MS';
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header-style {
+    font-family: 'Pacifico';
+    background-color: #612dc7;
+    color: #92eaf6;
+    text-align: center;
+    padding: 2rem;
+}
+
+.main-style {
+    max-width: 800px;
+    margin: 1rem auto;
+    padding: 2rem;
+    background-color: #dae9df;
+    border-radius: 5px;
+}
+
+form {
+    margin-bottom: 3rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+#palindrome_input {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.button-style {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button-style:hover {
+    background-color: #3367d6;
+}
+
+.error {
+    color: #ff0000;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#palindromes {
+    text-align: center;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.prime {
+    color: #00ff00;
+}
+
+.not-prime {
+    color: #ff0000;
+}
+
+.footer-style {
+    text-align: center;
+    padding: 1rem;
+    background-color: #a421ab;
+    color: #f1d8e7;
+}
