@@ -1,0 +1,412 @@
+-- Name: Monica Suresh
+
+-- Query #1: This query counts the number of sales transactions that were between the previous and the following month's average sales quantities for each customer, product and month
+
+WITH prev_avg_sales AS (
+  -- Calculate the average sales quantity of the previous month for each customer and product
+  SELECT 
+    s1.cust, 
+    s1.prod, 
+    s1.month, 
+    AVG(s2.quant) AS prev_avg_sales 
+  FROM 
+    sales s1 
+    JOIN sales s2 ON s1.cust = s2.cust 
+    AND s1.prod = s2.prod 
+    AND s1.month - 1 = s2.month 
+  GROUP BY 
+    s1.cust, 
+    s1.prod, 
+    s1.month
+), 
+next_avg_sales AS (
+  -- Calculate the average sales quantity of the next month for each customer and product
+  SELECT 
+    s1.cust, 
+    s1.prod, 
+    s1.month, 
+    AVG(s2.quant) AS next_avg_sales 
+  FROM 
+    sales s1 
+    JOIN sales s2 ON s1.cust = s2.cust 
+    AND s1.prod = s2.prod 
+    AND s1.month + 1 = s2.month 
+  GROUP BY 
+    s1.cust, 
+    s1.prod, 
+    s1.month
+), 
+sales_count_between_avg AS (
+  -- Calculate the count of sales where the quantity is between the previous and next average sales
+  SELECT 
+    DISTINCT s.cust, 
+    s.prod, 
+    s.month, 
+    COUNT(*) AS sales_count 
+  FROM 
+    sales s 
+    JOIN prev_avg_sales pas ON s.cust = pas.cust 
+    AND s.prod = pas.prod 
+    AND s.month = pas.month 
+    JOIN next_avg_sales nas ON s.cust = nas.cust 
+    AND s.prod = nas.prod 
+    AND s.month = nas.month 
+  WHERE 
+    s.quant BETWEEN pas.prev_avg_sales 
+    AND nas.next_avg_sales 
+    OR s.quant BETWEEN nas.next_avg_sales 
+    AND pas.prev_avg_sales 
+  GROUP BY 
+    s.cust, 
+    s.prod, 
+    s.month
+) 
+SELECT 
+  DISTINCT s.cust AS "CUSTOMER", 
+  s.prod AS "PRODUCT", 
+  s.month AS "MONTH", 
+  sba.sales_count AS "SALES_COUNT_BETWEEN_AVGS" 
+FROM 
+  sales s 
+  LEFT JOIN sales_count_between_avg sba ON s.cust = sba.cust 
+  AND s.prod = sba.prod 
+  AND s.month = sba.month;
+
+
+-- Query #2: This query show the average sales before, during and after each month for each customer and product combination.
+
+-- Get the previous month average sales quantity for each customer and product
+WITH prev_avg_sales AS (
+  SELECT 
+    s1.cust, 
+    s1.prod, 
+    s1.month, 
+    AVG(s2.quant) AS prev_avg_sales 
+  FROM 
+    sales s1 
+    JOIN sales s2 ON s1.cust = s2.cust 
+    AND s1.prod = s2.prod 
+    AND s1.month - 1 = s2.month 
+  GROUP BY 
+    s1.cust, 
+    s1.prod, 
+    s1.month
+), 
+next_avg_sales AS (
+  -- Get the next month average sales quantity for each customer and product
+  SELECT 
+    s1.cust, 
+    s1.prod, 
+    s1.month, 
+    AVG(s2.quant) AS next_avg_sales 
+  FROM 
+    sales s1 
+    JOIN sales s2 ON s1.cust = s2.cust 
+    AND s1.prod = s2.prod 
+    AND s1.month + 1 = s2.month 
+  GROUP BY 
+    s1.cust, 
+    s1.prod, 
+    s1.month
+), 
+current_avg_sales AS (
+  -- Get the current month average sales quantity for each customer and product
+  SELECT 
+    cust, 
+    prod, 
+    month, 
+    AVG(quant) AS current_avg_sales 
+  FROM 
+    sales 
+  GROUP BY 
+    cust, 
+    prod, 
+    month
+) 
+-- Get the distinct customer, product, and month combination along with the average sales quantities
+SELECT 
+  DISTINCT s.cust AS "CUSTOMER", 
+  s.prod AS "PRODUCT", 
+  s.month AS "MONTH", 
+  pas.prev_avg_sales AS "BEFORE_AVG", 
+  cas.current_avg_sales AS "DURING_AVG", 
+  nas.next_avg_sales AS "AFTER_AVG" 
+FROM 
+  sales s 
+  LEFT JOIN prev_avg_sales pas ON s.cust = pas.cust 
+  AND s.prod = pas.prod 
+  AND s.month = pas.month 
+  LEFT JOIN next_avg_sales nas ON s.cust = nas.cust 
+  AND s.prod = nas.prod 
+  AND s.month = nas.month 
+  JOIN current_avg_sales cas ON s.cust = cas.cust 
+  AND s.prod = cas.prod 
+  AND s.month = cas.month;
+
+
+-- Query #3: For each customer, product and state combination, this query computes the product’s average
+-- sale of this customer for the state, the average sale of the product and the state but for all of the
+-- other customers, the customer’s average sale for the given state, but for all of the other products, and 
+-- the customer’s average sale for the given product, but for all of the other states.
+
+WITH cust_state_avg AS (
+  -- Calculate the average quantity for each customer, product, and state combination
+  SELECT 
+    cust, 
+    prod, 
+    state, 
+    AVG(quant) AS cust_state_avg 
+  FROM 
+    sales 
+  GROUP BY 
+    cust, 
+    prod, 
+    state
+), 
+other_cust_avg AS (
+  -- Calculate the average quantity for other customers, but with the same product and state
+  SELECT 
+    t1.cust, 
+    t1.prod, 
+    t1.state, 
+    AVG(t2.quant) AS other_cust_avg 
+  FROM 
+    sales t1, 
+    sales t2 
+  WHERE 
+    t1.prod = t2.prod 
+    AND t1.state = t2.state 
+    AND t1.cust != t2.cust 
+  GROUP BY 
+    t1.cust, 
+    t1.prod, 
+    t1.state
+), 
+other_prod_avg AS (
+  -- Calculate the average quantity for the same customer, other products, and same state
+  SELECT 
+    t1.cust, 
+    t1.prod, 
+    t1.state, 
+    AVG(t2.quant) AS other_prod_avg 
+  FROM 
+    sales t1, 
+    sales t2 
+  WHERE 
+    t1.cust = t2.cust 
+    AND t1.state = t2.state 
+    AND t1.prod != t2.prod 
+  GROUP BY 
+    t1.cust, 
+    t1.prod, 
+    t1.state
+), 
+other_state_avg AS (
+  -- Calculate the average quantity for the same customer, same product, and other states
+  SELECT 
+    t1.cust, 
+    t1.prod, 
+    t1.state, 
+    AVG(t2.quant) AS other_state_avg 
+  FROM 
+    sales t1, 
+    sales t2 
+  WHERE 
+    t1.cust = t2.cust 
+    AND t1.prod = t2.prod 
+    AND t1.state != t2.state 
+  GROUP BY 
+    t1.cust, 
+    t1.prod, 
+    t1.state
+) 
+SELECT 
+  csa.cust AS "CUSTOMER", 
+  csa.prod AS "PRODUCT", 
+  csa.state AS "STATE", 
+  csa.cust_state_avg AS "PROD_AVG", 
+  oca.other_cust_avg AS "OTHER_CUST_AVG", 
+  opa.other_prod_avg AS "OTHER_PROD_AVG", 
+  osa.other_state_avg AS "OTHER_STATE_AVG"
+FROM 
+  cust_state_avg csa, 
+  other_cust_avg oca, 
+  other_prod_avg opa, 
+  other_state_avg osa 
+WHERE 
+  csa.cust = oca.cust 
+  AND csa.prod = oca.prod 
+  AND csa.state = oca.state 
+  AND csa.cust = opa.cust 
+  AND csa.prod = opa.prod 
+  AND csa.state = opa.state 
+  AND csa.cust = osa.cust 
+  AND csa.prod = osa.prod 
+  AND csa.state = osa.state;
+
+
+
+-- Query #4: This query finds the customers with the top 3 highest quantities purchased in New Jersey
+WITH largest_quant_in_nj AS (
+  -- Get the maximum sales quantity for NJ
+  SELECT 
+    MAX(quant) AS max_quant 
+  FROM 
+    sales 
+  WHERE 
+    state = 'NJ'
+), 
+nj_customers_with_largest_quant AS (
+  -- Get the customers with the largest sales quantity in NJ
+  SELECT 
+    s.cust AS "CUSTOMER", 
+    s.quant AS "QUANTITY", 
+    s.prod AS "PRODUCT", 
+    s.date AS "DATE" 
+  FROM 
+    sales s 
+    JOIN largest_quant_in_nj l ON s.quant = l.max_quant 
+  WHERE 
+    s.state = 'NJ'
+), 
+second_largest_quant_in_nj AS (
+  -- Get the second-largest sales quantity for NJ
+  SELECT 
+    MAX(quant) AS max_quant 
+  FROM 
+    sales s 
+    JOIN largest_quant_in_nj l ON s.quant < l.max_quant 
+  WHERE 
+    s.state = 'NJ'
+), 
+nj_customers_with_second_largest_quant AS (
+  -- Get the customers with the second-largest sales quantity in NJ
+  SELECT 
+    s.cust AS "CUSTOMER", 
+    s.quant AS "QUANTITY", 
+    s.prod AS "PRODUCT", 
+    s.date AS "DATE" 
+  FROM 
+    sales s 
+    JOIN second_largest_quant_in_nj sl ON s.quant = sl.max_quant 
+  WHERE 
+    state = 'NJ'
+), 
+third_largest_quant AS (
+  -- Get the third-largest sales quantity in NJ
+  SELECT 
+    MAX(quant) AS max_quant 
+  FROM 
+    sales s 
+    JOIN second_largest_quant_in_nj sl ON s.quant < sl.max_quant 
+  WHERE 
+    state = 'NJ'
+), 
+nj_customers_with_third_largest_quant AS (
+  -- Get the customers with the third-largest sales quantity in NJ
+  SELECT 
+    s.cust AS "CUSTOMER", 
+    s.quant AS "QUANTITY", 
+    s.prod AS "PRODUCT", 
+    s.date AS "DATE" 
+  FROM 
+    sales s 
+    JOIN third_largest_quant tl ON s.quant = tl.max_quant 
+  WHERE 
+    state = 'NJ'
+) -- Combine the results from all three derived tables
+SELECT 
+  * 
+FROM 
+  nj_customers_with_largest_quant 
+UNION 
+SELECT 
+  * 
+FROM 
+  nj_customers_with_second_largest_quant 
+UNION 
+SELECT 
+  * 
+FROM 
+  nj_customers_with_third_largest_quant;
+
+
+
+-- Query #5: For each product, this query finds the median sales quantity.
+-- Gets the total number of sales for each product.
+WITH product_sales_count AS (
+  SELECT 
+    prod, 
+    COUNT(*) AS total_sales 
+  FROM 
+    sales 
+  GROUP BY 
+    prod
+), 
+-- Gets product and quantity columns from the sales table, grouping them by product and quantity.
+products_and_quants AS (
+  SELECT 
+    prod, 
+    quant 
+  FROM 
+    sales 
+  GROUP BY 
+    prod, 
+    quant
+), 
+-- Gets the position of each product/quantity combination based on the ranking of the quants within each product.
+positions AS (
+  SELECT 
+    pq.prod, 
+    pq.quant, 
+    COUNT(*) AS position 
+  FROM 
+    products_and_quants pq 
+    RIGHT JOIN sales s ON pq.prod = s.prod 
+    AND pq.quant >= s.quant 
+  GROUP BY 
+    pq.prod, 
+    pq.quant
+), 
+-- Joins the total sales with each product/quantity combination.
+positions_and_total_sales_by_prod AS (
+  SELECT 
+    p.prod, 
+    p.quant, 
+    p.position as position, 
+    ps_count.total_sales 
+  FROM 
+    positions p 
+    JOIN product_sales_count ps_count ON p.prod = ps_count.prod
+), 
+-- Gets the minimum position for each product where the position is greater than or equal to half of the total sales.
+median_position AS (
+  SELECT 
+    prod, 
+    MIN(position) AS min_position 
+  FROM 
+    positions_and_total_sales_by_prod 
+  WHERE 
+    position >= CEIL(total_sales / 2.0) 
+  GROUP BY 
+    prod
+), 
+-- Gets the product and median quantity based on the minimum position
+product_median_quant AS (
+  SELECT 
+    ptsp.prod AS "PRODUCT", 
+    ptsp.quant AS "MEDIAN_QUANT" 
+  FROM 
+    positions_and_total_sales_by_prod ptsp 
+    JOIN median_position mp ON ptsp.prod = mp.prod 
+    AND ptsp.position = mp.min_position
+) 
+SELECT 
+  * 
+FROM 
+  product_median_quant;
+
+
+
+
+

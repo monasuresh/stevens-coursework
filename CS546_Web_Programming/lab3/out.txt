@@ -1,0 +1,1756 @@
+
+> cs-546-lab-3@1.0.0 start
+> node app.js
+
+[
+  {
+    id: '519c733a-6a5d-451f-927d-0e860b5d1e3d',
+    title: 'Prime Suspect 3',
+    genres: [ 'Science Fiction' ],
+    publicationDate: '3/22/1959',
+    publisher: 'Skilith',
+    summary: 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n' +
+      '\n' +
+      'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n' +
+      '\n' +
+      'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',
+    isbn: '445798791-3',
+    language: 'Tetum',
+    pageCount: 960,
+    price: 18.35,
+    format: [ 'Paperback' ],
+    author: 'Pris Osmond'
+  },
+  {
+    id: 'fe64fc98-95ff-4d47-bac8-93c755b85c95',
+    title: 'White Hunter, Black Heart',
+    genres: [ 'Travel', 'Personal Development' ],
+    publicationDate: '4/23/1938',
+    publisher: 'Podcat',
+    summary: 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',
+    isbn: '068799766-6',
+    language: 'New Zealand Sign Language',
+    pageCount: 442,
+    price: 56.84,
+    format: [ 'Hardcover', 'Paperback', 'E-Book' ],
+    author: 'Marve Grinham'
+  },
+  {
+    id: '40913fde-1113-47d7-a4d1-56ccf09ef08e',
+    title: 'Bambou',
+    genres: [ 'Guide / How-to' ],
+    publicationDate: '4/16/1981',
+    publisher: 'Voomm',
+    summary: 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n' +
+      '\n' +
+      'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.',
+    isbn: '339021328-7',
+    language: 'Guaraní',
+    pageCount: 127,
+    price: 7.83,
+    format: [ 'E-Book' ],
+    author: 'Malia Look'
+  },
+  {
+    id: 'cf4c4706-304a-4a90-a0b5-29f8721b439b',
+    title: 'Assassination of a High School President',
+    genres: [
+      'Personal Development',
+      'Bildungsroman',
+      'Art',
+      'Romance',
+      'Dystopian'
+    ],
+    publicationDate: '7/28/1945',
+    publisher: 'Zoozzy',
+    summary: 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n' +
+      '\n' +
+      'Sed ante. Vivamus tortor. Duis mattis egestas metus.',
+    isbn: '336246300-2',
+    language: 'Mongolian',
+    pageCount: 50,
+    price: 12.28,
+    format: [ 'Hardcover', 'Paperback', 'E-Book' ],
+    author: 'Kellie Breznovic'
+  },
+  {
+    id: '569813c2-237e-4879-a5dc-bf5441d91fd5',
+    title: 'Scissere',
+    genres: [ 'Horror' ],
+    publicationDate: '5/10/1951',
+    publisher: 'Aivee',
+    summary: 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.',
+    isbn: '580391603-X',
+    language: 'Albanian',
+    pageCount: 842,
+    price: 42.67,
+    format: [ 'Paperback' ],
+    author: 'Axe Preble'
+  },
+  {
+    id: 'f3eabffa-0ea9-48e2-b25d-2711c91a035e',
+    title: 'Next Karate Kid, The',
+    genres: [ 'Bildungsroman' ],
+    publicationDate: '6/20/1929',
+    publisher: 'Centizu',
+    summary: 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n' +
+      '\n' +
+      'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n' +
+      '\n' +
+      'Sed ante. Vivamus tortor. Duis mattis egestas metus.',
+    isbn: '104100623-3',
+    language: 'Tajik',
+    pageCount: 618,
+    price: 13.63,
+    format: [ 'Hardcover', 'E-Book' ],
+    author: 'Libbie Cordeiro'
+  },
+  {
+    id: '04e55bc9-0c7a-47a6-a403-52eabf25c6ef',
+    title: 'Shattered Image',
+    genres: [ 'Mystery' ],
+    publicationDate: '5/30/2004',
+    publisher: 'Tekfly',
+    summary: 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n' +
+      '\n' +
+      'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\n' +
+      '\n' +
+      'In congue. Etiam justo. Etiam pretium iaculis justo.',
+    isbn: '214788141-4',
+    language: 'Ndebele',
+    pageCount: 439,
+    price: 15.91,
+    format: [ 'Paperback', 'Hardcover' ],
+    author: 'Tonya Loyndon'
+  },
+  {
+    id: 'c4ccc400-cf1a-49d3-ba2f-df4093488bfb',
+    title: 'Curse of the Oily Man (Sumpah orang minyak) ',
+    genres: [ 'Science Fiction' ],
+    publicationDate: '6/17/1934',
+    publisher: 'Buzzdog',
+    summary: 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n' +
+      '\n' +
+      'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n' +
+      '\n' +
+      'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
+    isbn: '212656101-1',
+    language: 'Telugu',
+    pageCount: 463,
+    price: 27.48,
+    format: [ 'E-Book', 'Hardcover' ],
+    author: 'Mario Adlington'
+  },
+  {
+    id: '3d46a739-fd92-4ff5-9bf3-95da90d22f66',
+    title: 'Lo',
+    genres: [ 'Adventure', 'Paranormal' ],
+    publicationDate: '9/12/1965',
+    publisher: 'Mynte',
+    summary: 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.',
+    isbn: '028595319-2',
+    language: 'Indonesian',
+    pageCount: 647,
+    price: 82.48,
+    format: [ 'Paperback' ],
+    author: 'Shel Mountstephen'
+  },
+  {
+    id: 'a60f59ab-4f13-4014-ad9e-2bb38890c2a3',
+    title: 'West Is West',
+    genres: [ 'Romance', 'Horror' ],
+    publicationDate: '10/9/1917',
+    publisher: 'Edgepulse',
+    summary: 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
+    isbn: '433254208-8',
+    language: 'Tamil',
+    pageCount: 205,
+    price: 60.3,
+    format: [ 'Paperback', 'E-Book', 'Hardcover' ],
+    author: 'Norman Elnaugh'
+  },
+  {
+    id: '3d99f19a-7fc0-47f1-ae0a-b040a588e80f',
+    title: 'Laid To Rest',
+    genres: [ 'Art' ],
+    publicationDate: '6/20/1909',
+    publisher: 'Skyndu',
+    summary: 'Fusce consequat. Nulla nisl. Nunc nisl.',
+    isbn: '724781437-3',
+    language: 'Kazakh',
+    pageCount: 524,
+    price: 30.71,
+    format: [ 'Paperback' ],
+    author: 'Rita Zohrer'
+  },
+  {
+    id: '6ed5cfdb-67d1-4afd-938d-ea609d5d7e20',
+    title: 'Saboteur',
+    genres: [ 'Paranormal', 'Adventure' ],
+    publicationDate: '1/10/1958',
+    publisher: 'Trudoo',
+    summary: 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.',
+    isbn: '362320558-3',
+    language: 'Kyrgyz',
+    pageCount: 395,
+    price: 55.84,
+    format: [ 'Paperback' ],
+    author: 'Kelley Weson'
+  },
+  {
+    id: '22ba56fd-0828-4723-b47f-093dff189e62',
+    title: 'Jesus Christ Superstar',
+    genres: [ 'Science Fiction' ],
+    publicationDate: '7/7/1922',
+    publisher: 'Dabvine',
+    summary: 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.',
+    isbn: '169313593-0',
+    language: 'Gagauz',
+    pageCount: 784,
+    price: 46.39,
+    format: [ 'Paperback', 'Hardcover', 'E-Book' ],
+    author: 'Finlay Van Haeften'
+  },
+  {
+    id: '15acd61c-d718-4d28-9715-bfa6d301fe43',
+    title: 'Pinocchio',
+    genres: [ 'Contemporary', 'Dystopian', 'Bildungsroman', 'Adventure' ],
+    publicationDate: '7/2/2008',
+    publisher: 'Eire',
+    summary: 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.',
+    isbn: '687008365-7',
+    language: 'Sotho',
+    pageCount: 318,
+    price: 8.83,
+    format: [ 'Hardcover' ],
+    author: 'Colas Croot'
+  },
+  {
+    id: 'd337cf67-a121-48aa-a29e-1a2237de1cce',
+    title: 'Navy Seals',
+    genres: [ 'Motivational', 'Southern Gothic Fiction' ],
+    publicationDate: '9/23/1975',
+    publisher: 'Realpoint',
+    summary: 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\n' +
+      '\n' +
+      'In congue. Etiam justo. Etiam pretium iaculis justo.',
+    isbn: '786862328-4',
+    language: 'Tswana',
+    pageCount: 521,
+    price: 98.21,
+    format: [ 'Hardcover', 'E-Book' ],
+    author: 'Ivory Daville'
+  },
+  {
+    id: 'd6bf9799-e794-4632-8da9-5252d1664a5b',
+    title: 'The Woman in Black 2: Angel of Death',
+    genres: [ 'Romance', 'Humor', 'Travel', 'Adventure', 'Contemporary' ],
+    publicationDate: '5/4/1907',
+    publisher: 'Devcast',
+    summary: 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n' +
+      '\n' +
+      'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n' +
+      '\n' +
+      'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.',
+    isbn: '748453792-6',
+    language: 'Arabic',
+    pageCount: 768,
+    price: 45.87,
+    format: [ 'E-Book', 'Hardcover' ],
+    author: 'Carolee Kennelly'
+  },
+  {
+    id: 'df516dd0-7ca6-41de-bdae-13899ff696eb',
+    title: 'Under the Skin',
+    genres: [ 'Historical fiction' ],
+    publicationDate: '1/24/1930',
+    publisher: 'Zoozzy',
+    summary: 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n' +
+      '\n' +
+      'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n' +
+      '\n' +
+      'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
+    isbn: '368584857-7',
+    language: 'Hiri Motu',
+    pageCount: 666,
+    price: 53.01,
+    format: [ 'E-Book' ],
+    author: 'Terrence Napolitano'
+  },
+  {
+    id: '112fa08b-9c95-4178-bc27-a0bf00a96d20',
+    title: 'In the Fog (V tumane)',
+    genres: [ 'Mystery', 'Thriller' ],
+    publicationDate: '2/5/1984',
+    publisher: 'Mydo',
+    summary: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.',
+    isbn: '934271609-1',
+    language: 'Bengali',
+    pageCount: 133,
+    price: 68.06,
+    format: [ 'Paperback', 'E-Book', 'Hardcover' ],
+    author: 'Keary Ugo'
+  },
+  {
+    id: '680758fa-6d21-422e-9e27-234d4bf9c2e2',
+    title: 'Muppet Musicians of Bremen, The',
+    genres: [
+      'Personal Development',
+      'Cookbook',
+      'Science Fiction',
+      'Fiction',
+      'Romance'
+    ],
+    publicationDate: '3/6/2023',
+    publisher: 'Agivu',
+    summary: 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',
+    isbn: '554842521-8',
+    language: 'Afrikaans',
+    pageCount: 215,
+    price: 38.03,
+    format: [ 'Paperback', 'Hardcover', 'E-Book' ],
+    author: 'Deane Blackett'
+  },
+  {
+    id: '2f97ccec-17fb-486e-b249-d18c6ead7fa7',
+    title: 'Star Maps',
+    genres: [ 'Motivational', 'Southern Gothic Fiction', 'Historical fiction' ],
+    publicationDate: '12/10/1903',
+    publisher: 'Realfire',
+    summary: 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n' +
+      '\n' +
+      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n' +
+      '\n' +
+      'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
+    isbn: '428286707-8',
+    language: 'Swati',
+    pageCount: 64,
+    price: 38.34,
+    format: [ 'Paperback' ],
+    author: 'Gilles Guihen'
+  },
+  {
+    id: 'c38589d1-26df-4001-bd1a-3a934616be48',
+    title: 'Ryan',
+    genres: [ 'Guide / How-to', 'Children’s' ],
+    publicationDate: '12/3/1941',
+    publisher: 'Babbleopia',
+    summary: 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n' +
+      '\n' +
+      'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
+    isbn: '720852052-6',
+    language: 'Arabic',
+    pageCount: 914,
+    price: 68.41,
+    format: [ 'Hardcover', 'Paperback', 'E-Book' ],
+    author: 'Fons Bradford'
+  },
+  {
+    id: '1a5cad0d-345a-4958-8201-09c255d9e044',
+    title: 'Philadelphia Experiment II',
+    genres: [ 'Humor', 'Art' ],
+    publicationDate: '2/5/1962',
+    publisher: 'Kare',
+    summary: 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n' +
+      '\n' +
+      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',
+    isbn: '022371802-5',
+    language: 'Punjabi',
+    pageCount: 299,
+    price: 97.81,
+    format: [ 'Hardcover', 'E-Book' ],
+    author: 'Clarance Aleso'
+  },
+  {
+    id: '5d7a28c2-e076-47c3-a327-cbd123b423f0',
+    title: "You're Next",
+    genres: [ 'Fiction' ],
+    publicationDate: '9/15/1902',
+    publisher: 'Thoughtstorm',
+    summary: 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n' +
+      '\n' +
+      'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n' +
+      '\n' +
+      'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
+    isbn: '879694960-0',
+    language: 'Aymara',
+    pageCount: 2,
+    price: 6.32,
+    format: [ 'Paperback', 'E-Book', 'Hardcover' ],
+    author: 'Anna Hudleston'
+  },
+  {
+    id: '1561a24b-87d7-4ddc-b7c0-8b113958fcd1',
+    title: 'Emma',
+    genres: [ 'Historical fiction', 'Health', 'Contemporary', 'Art' ],
+    publicationDate: '1/20/2005',
+    publisher: 'Twitterworks',
+    summary: 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n' +
+      '\n' +
+      'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n' +
+      '\n' +
+      'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.',
+    isbn: '214425576-8',
+    language: 'Dari',
+    pageCount: 898,
+    price: 27.34,
+    format: [ 'E-Book' ],
+    author: 'Kirsten Prosh'
+  },
+  {
+    id: 'e7de5428-c687-43e9-9793-f1ad55445838',
+    title: 'Indictment: The McMartin Trial',
+    genres: [ 'Thriller', 'Humor' ],
+    publicationDate: '9/25/2019',
+    publisher: 'Shufflester',
+    summary: 'Phasellus in felis. Donec semper sapien a libero. Nam dui.',
+    isbn: '750017875-1',
+    language: 'Hiri Motu',
+    pageCount: 587,
+    price: 62.48,
+    format: [ 'E-Book', 'Paperback' ],
+    author: 'Jordan Stobbart'
+  },
+  {
+    id: 'f1a8bffe-f257-424e-b339-3d364ffba559',
+    title: 'Aliens of the Deep',
+    genres: [
+      'Paranormal',
+      'Romance',
+      'Adventure',
+      'Science Fiction',
+      'Families & Relationships'
+    ],
+    publicationDate: '11/26/2017',
+    publisher: 'Realbridge',
+    summary: 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n' +
+      '\n' +
+      'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.',
+    isbn: '202184537-0',
+    language: 'Tok Pisin',
+    pageCount: 904,
+    price: 75.74,
+    format: [ 'E-Book', 'Hardcover', 'Paperback' ],
+    author: "Priscella O'Cannon"
+  },
+  {
+    id: '3f0ee995-e4ea-4d54-ac4e-5d0cd7890132',
+    title: 'One Last Hug',
+    genres: [
+      'Southern Gothic Fiction',
+      'Contemporary',
+      'History',
+      'Paranormal',
+      'Children’s'
+    ],
+    publicationDate: '7/14/1945',
+    publisher: 'Centizu',
+    summary: 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n' +
+      '\n' +
+      'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.',
+    isbn: '747997490-6',
+    language: 'Hungarian',
+    pageCount: 674,
+    price: 16.81,
+    format: [ 'Paperback' ],
+    author: 'Vincents Sauvage'
+  },
+  {
+    id: '62371918-4fe4-4bc9-8c59-99a4e640aad1',
+    title: 'Death in Brunswick',
+    genres: [ 'Humor', 'Historical fiction', 'Gothic', 'Children’s' ],
+    publicationDate: '11/4/1989',
+    publisher: 'Browsetype',
+    summary: 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n' +
+      '\n' +
+      'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+    isbn: '693357978-6',
+    language: 'Thai',
+    pageCount: 306,
+    price: 43.4,
+    format: [ 'Hardcover', 'E-Book', 'Paperback' ],
+    author: 'Immanuel Rumgay'
+  },
+  {
+    id: '4a255688-fe56-4697-b26b-1127031fc253',
+    title: 'Machine That Kills Bad People, The (La Macchina Ammazzacattivi)',
+    genres: [ 'Science Fiction' ],
+    publicationDate: '11/15/2003',
+    publisher: 'Youspan',
+    summary: 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',
+    isbn: '124430552-9',
+    language: 'Guaraní',
+    pageCount: 283,
+    price: 54.5,
+    format: [ 'Hardcover', 'Paperback', 'E-Book' ],
+    author: 'Quill Aartsen'
+  },
+  {
+    id: '2dd023b7-bb50-4f50-96c5-b67bd863f7ef',
+    title: 'Soapdish',
+    genres: [ 'Self-help' ],
+    publicationDate: '8/4/2015',
+    publisher: 'Kanoodle',
+    summary: 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n' +
+      '\n' +
+      'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n' +
+      '\n' +
+      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    isbn: '469753564-2',
+    language: 'Greek',
+    pageCount: 920,
+    price: 52.15,
+    format: [ 'Hardcover' ],
+    author: 'Waite Roxburgh'
+  },
+  {
+    id: '9be9c068-9dba-46a9-92d0-e2d9d6b3e96f',
+    title: 'In Enemy Hands',
+    genres: [ 'Travel', 'Fiction', 'Horror', 'Children’s', 'Art' ],
+    publicationDate: '12/12/1980',
+    publisher: 'Quinu',
+    summary: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n' +
+      '\n' +
+      'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n' +
+      '\n' +
+      'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',
+    isbn: '261930215-3',
+    language: 'Swahili',
+    pageCount: 893,
+    price: 38.17,
+    format: [ 'Paperback', 'Hardcover', 'E-Book' ],
+    author: 'Mathilda MacGee'
+  },
+  {
+    id: '31c011e6-3041-45da-95bc-0505d298c3d2',
+    title: 'Om Shanti Om',
+    genres: [
+      'Mystery',
+      'Dystopian',
+      'Families & Relationships',
+      'Horror',
+      'Children’s'
+    ],
+    publicationDate: '9/28/1990',
+    publisher: 'Minyx',
+    summary: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n' +
+      '\n' +
+      'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n' +
+      '\n' +
+      'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',
+    isbn: '793299592-2',
+    language: 'Indonesian',
+    pageCount: 578,
+    price: 10.16,
+    format: [ 'Hardcover', 'Paperback' ],
+    author: 'Ivette Weatherhill'
+  },
+  {
+    id: 'ed2ca376-cbe3-47f7-af34-7a033de51a02',
+    title: '3 Ninjas Knuckle Up',
+    genres: [ 'Cookbook' ],
+    publicationDate: '11/18/1994',
+    publisher: 'Oyoba',
+    summary: 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n' +
+      '\n' +
+      'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',
+    isbn: '971195658-6',
+    language: 'Filipino',
+    pageCount: 905,
+    price: 48.22,
+    format: [ 'Hardcover', 'Paperback' ],
+    author: 'Waite Roxburgh'
+  },
+  {
+    id: 'ca72aaf7-d8b9-46d5-b6db-d0a47b73e2ea',
+    title: 'Jay and Silent Bob Strike Back',
+    genres: [ 'Southern Gothic Fiction', 'History' ],
+    publicationDate: '10/2/2017',
+    publisher: 'Skippad',
+    summary: 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n' +
+      '\n' +
+      'Fusce consequat. Nulla nisl. Nunc nisl.',
+    isbn: '238694931-1',
+    language: 'Gujarati',
+    pageCount: 110,
+    price: 70.54,
+    format: [ 'Paperback', 'Hardcover', 'E-Book' ],
+    author: 'Lottie Skinley'
+  },
+  {
+    id: '99875ad8-a1d3-42ea-8d7b-5ac4cd4edb9e',
+    title: 'No habrá paz para los malvados',
+    genres: [ 'Art', 'Travel' ],
+    publicationDate: '5/7/2018',
+    publisher: 'Avamm',
+    summary: 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.\n' +
+      '\n' +
+      'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n' +
+      '\n' +
+      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',
+    isbn: '520476104-7',
+    language: 'Finnish',
+    pageCount: 693,
+    price: 25.66,
+    format: [ 'E-Book', 'Hardcover', 'Paperback' ],
+    author: 'Brooke Adcock'
+  },
+  {
+    id: '638686c2-e098-4d5f-860b-78b31a4ccc9d',
+    title: 'Gumby: The Movie',
+    genres: [ 'Gothic' ],
+    publicationDate: '1/14/1928',
+    publisher: 'Muxo',
+    summary: 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',
+    isbn: '468043207-1',
+    language: 'Dari',
+    pageCount: 130,
+    price: 73.06,
+    format: [ 'E-Book', 'Paperback', 'Hardcover' ],
+    author: 'Lisette Laurisch'
+  },
+  {
+    id: '82c2903c-d0b5-4ec0-8a46-38485d65b93d',
+    title: 'Love Letter, The',
+    genres: [
+      'Personal Development',
+      'Motivational',
+      'Science Fiction',
+      'Children’s',
+      'History'
+    ],
+    publicationDate: '9/23/2003',
+    publisher: 'Twitterworks',
+    summary: 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n' +
+      '\n' +
+      'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n' +
+      '\n' +
+      'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
+    isbn: '027959989-7',
+    language: 'English',
+    pageCount: 836,
+    price: 52.28,
+    format: [ 'E-Book', 'Hardcover', 'Paperback' ],
+    author: 'Daniel Armitt'
+  },
+  {
+    id: 'ac1ba9c8-cb32-485d-99bd-65e249c2f5c5',
+    title: 'Eddie Izzard: Force Majeure Live',
+    genres: [ 'Fiction', 'Cookbook', 'Gothic', 'Historical fiction' ],
+    publicationDate: '8/24/2013',
+    publisher: 'Bubblebox',
+    summary: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.',
+    isbn: '484125582-6',
+    language: 'Dhivehi',
+    pageCount: 953,
+    price: 45.6,
+    format: [ 'E-Book' ],
+    author: 'Tandy Trenbay'
+  },
+  {
+    id: '4295cda6-bf25-469d-8b5f-0b313fc6a57b',
+    title: 'Dodge City',
+    genres: [ 'Horror' ],
+    publicationDate: '10/31/1918',
+    publisher: 'Eazzy',
+    summary: 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n' +
+      '\n' +
+      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n' +
+      '\n' +
+      'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.',
+    isbn: '385718104-4',
+    language: 'Somali',
+    pageCount: 918,
+    price: 87.16,
+    format: [ 'Paperback', 'Hardcover' ],
+    author: 'Farah Sherborn'
+  },
+  {
+    id: '98682279-52bc-4b64-829a-7ef5eb3815ed',
+    title: 'Grace',
+    genres: [ 'Science Fiction', 'Personal Development', 'Historical fiction' ],
+    publicationDate: '9/17/1936',
+    publisher: 'Quamba',
+    summary: 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n' +
+      '\n' +
+      'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n' +
+      '\n' +
+      'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
+    isbn: '293578322-0',
+    language: 'English',
+    pageCount: 36,
+    price: 29.76,
+    format: [ 'E-Book', 'Paperback', 'Hardcover' ],
+    author: 'Averill Ferie'
+  },
+  {
+    id: 'd05a3185-3e22-4a7f-b164-81ad3bebc1e2',
+    title: 'Fists in the Pocket (Pugni in tasca, I)',
+    genres: [ 'Paranormal', 'Dystopian' ],
+    publicationDate: '1/22/2007',
+    publisher: 'Blogpad',
+    summary: 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n' +
+      '\n' +
+      'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n' +
+      '\n' +
+      'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
+    isbn: '070428177-5',
+    language: 'Kazakh',
+    pageCount: 930,
+    price: 88.26,
+    format: [ 'Paperback', 'E-Book' ],
+    author: 'Devy Tewes'
+  },
+  {
+    id: '2a195547-19a8-42bf-9c2a-735b0499f8f2',
+    title: 'Simon Magus',
+    genres: [ 'Horror', 'Humor', 'History', 'Travel' ],
+    publicationDate: '2/29/2000',
+    publisher: 'Rooxo',
+    summary: 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n' +
+      '\n' +
+      'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n' +
+      '\n' +
+      'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
+    isbn: '508621237-5',
+    language: 'Bengali',
+    pageCount: 143,
+    price: 29.91,
+    format: [ 'Hardcover' ],
+    author: 'Gay Stoffersen'
+  },
+  {
+    id: 'd535eb5e-9825-4f24-a90a-d5f6d5f56d38',
+    title: 'Revengers Tragedy',
+    genres: [ 'Romance', 'Humor' ],
+    publicationDate: '1/16/1923',
+    publisher: 'Kwinu',
+    summary: 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n' +
+      '\n' +
+      'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n' +
+      '\n' +
+      'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',
+    isbn: '226499054-6',
+    language: 'Spanish',
+    pageCount: 660,
+    price: 99.24,
+    format: [ 'Hardcover', 'E-Book', 'Paperback' ],
+    author: 'Katti McClaren'
+  },
+  {
+    id: '92b2a991-bb3b-4393-a732-1c8518115ed4',
+    title: 'The Red Inn',
+    genres: [ 'Gothic', 'Fiction' ],
+    publicationDate: '1/21/1994',
+    publisher: 'Jayo',
+    summary: 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n' +
+      '\n' +
+      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n' +
+      '\n' +
+      'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',
+    isbn: '507184956-9',
+    language: 'Armenian',
+    pageCount: 685,
+    price: 87.02,
+    format: [ 'Paperback' ],
+    author: 'Ivory Daville'
+  },
+  {
+    id: '74ec757d-0ddd-4035-a8ff-2f10888d393d',
+    title: 'Rogue Trader',
+    genres: [ 'Dystopian', 'Southern Gothic Fiction', 'Motivational', 'Art' ],
+    publicationDate: '3/24/1934',
+    publisher: 'Nlounge',
+    summary: 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n' +
+      '\n' +
+      'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n' +
+      '\n' +
+      'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.',
+    isbn: '064253476-4',
+    language: 'Lithuanian',
+    pageCount: 14,
+    price: 14.05,
+    format: [ 'Hardcover', 'Paperback', 'E-Book' ],
+    author: 'Wilona Beddard'
+  },
+  {
+    id: 'ab84bc7e-1f25-434f-9586-b03e88d30f9e',
+    title: 'Jaws 2',
+    genres: [
+      'Health',
+      'Families & Relationships',
+      'Children’s',
+      'Romance',
+      'Fiction'
+    ],
+    publicationDate: '8/29/1913',
+    publisher: 'Skyndu',
+    summary: 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',
+    isbn: '286607813-6',
+    language: 'Hiri Motu',
+    pageCount: 424,
+    price: 36.4,
+    format: [ 'Paperback' ],
+    author: 'Danya Mc Elory'
+  },
+  {
+    id: 'd603e29b-8201-4d2c-be5a-c8fea4cf2416',
+    title: 'Cavemen',
+    genres: [
+      'Travel',
+      'History',
+      'Bildungsroman',
+      'Thriller',
+      'Southern Gothic Fiction'
+    ],
+    publicationDate: '1/21/1952',
+    publisher: 'Kamba',
+    summary: 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.',
+    isbn: '703934593-5',
+    language: 'Portuguese',
+    pageCount: 35,
+    price: 61.09,
+    format: [ 'E-Book', 'Hardcover', 'Paperback' ],
+    author: 'Aldin Bradman'
+  },
+  {
+    id: '549f8321-dd2d-488d-91d4-e21b30236cb0',
+    title: 'Swordsman II (Legend of the Swordsman, The) (Xiao ao jiang hu zhi: Dong Fang Bu Bai)',
+    genres: [ 'Mystery', 'Thriller' ],
+    publicationDate: '8/4/1946',
+    publisher: 'Blogpad',
+    summary: 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.',
+    isbn: '449373170-2',
+    language: 'Catalan',
+    pageCount: 19,
+    price: 46.82,
+    format: [ 'E-Book', 'Hardcover' ],
+    author: 'Lauree Henriquet'
+  },
+  {
+    id: '4d72791a-2826-48d0-8a2e-13a0dae424cf',
+    title: 'Pulp',
+    genres: [ 'Historical fiction' ],
+    publicationDate: '5/4/2004',
+    publisher: 'Zoomlounge',
+    summary: 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n' +
+      '\n' +
+      'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n' +
+      '\n' +
+      'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',
+    isbn: '980419386-8',
+    language: 'French',
+    pageCount: 619,
+    price: 62.12,
+    format: [ 'Hardcover', 'E-Book' ],
+    author: 'Paxon Davitt'
+  },
+  {
+    id: '7150e4e6-2caf-4790-9917-9dff53d5b1a3',
+    title: 'Fragile Trust: Plagiarism, Power, and Jayson Blair at the New York Times, A',
+    genres: [ 'Cookbook', 'Health', 'Thriller', 'Art' ],
+    publicationDate: '7/29/1985',
+    publisher: 'Browseblab',
+    summary: 'Phasellus in felis. Donec semper sapien a libero. Nam dui.\n' +
+      '\n' +
+      'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n' +
+      '\n' +
+      'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.',
+    isbn: '275970098-4',
+    language: 'Croatian',
+    pageCount: 335,
+    price: 68.97,
+    format: [ 'Hardcover' ],
+    author: 'Odille Angelini'
+  },
+  {
+    id: '4c96d4d1-07bb-4b9f-a0c8-7dcd6db08919',
+    title: 'Evil Dead, The',
+    genres: [ 'Fiction', 'Dystopian', 'Memoir' ],
+    publicationDate: '11/6/1905',
+    publisher: 'Nlounge',
+    summary: 'In congue. Etiam justo. Etiam pretium iaculis justo.\n' +
+      '\n' +
+      'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n' +
+      '\n' +
+      'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.',
+    isbn: '655529672-0',
+    language: 'Fijian',
+    pageCount: 608,
+    price: 15.47,
+    format: [ 'Hardcover', 'Paperback' ],
+    author: 'Rianon Tomkins'
+  },
+  {
+    id: 'bccb514c-defe-4a67-94a8-5070dc45056b',
+    title: 'Jay Mohr: Funny for a Girl',
+    genres: [ 'Fiction', 'History' ],
+    publicationDate: '10/13/2014',
+    publisher: 'Tekfly',
+    summary: 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n' +
+      '\n' +
+      'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
+    isbn: '989618866-1',
+    language: 'Hindi',
+    pageCount: 824,
+    price: 41.52,
+    format: [ 'Hardcover', 'E-Book', 'Paperback' ],
+    author: 'Kipp Oxnam'
+  },
+  {
+    id: 'b99fc6a0-ad68-48bd-a64b-8cf0ffee79ad',
+    title: "God's Pocket",
+    genres: [
+      'Personal Development',
+      'Thriller',
+      'Gothic',
+      'Dystopian',
+      'Mystery'
+    ],
+    publicationDate: '1/23/1976',
+    publisher: 'Quire',
+    summary: 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n' +
+      '\n' +
+      'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
+    isbn: '339333419-0',
+    language: 'Hiri Motu',
+    pageCount: 561,
+    price: 57.01,
+    format: [ 'Hardcover', 'E-Book' ],
+    author: 'Sholom Rawcliff'
+  },
+  {
+    id: '6b77352d-d818-4b27-8541-3dd247de4f3d',
+    title: 'Knight of Cups',
+    genres: [ 'Children’s', 'Bildungsroman', 'Humor' ],
+    publicationDate: '7/15/2014',
+    publisher: 'Twinder',
+    summary: 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
+    isbn: '052531067-3',
+    language: 'Catalan',
+    pageCount: 389,
+    price: 18.16,
+    format: [ 'Hardcover', 'Paperback' ],
+    author: 'Amabel Ghidoni'
+  },
+  {
+    id: '105bd1ee-86c3-45c9-a7f4-ba338bd59552',
+    title: 'Valentine',
+    genres: [
+      'Thriller',
+      'History',
+      'Contemporary',
+      'Cookbook',
+      'Families & Relationships'
+    ],
+    publicationDate: '10/31/1934',
+    publisher: 'Youbridge',
+    summary: 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.',
+    isbn: '600474990-7',
+    language: 'Polish',
+    pageCount: 220,
+    price: 39.85,
+    format: [ 'Hardcover', 'Paperback' ],
+    author: 'Cristie Solley'
+  },
+  {
+    id: 'd9688808-d047-4100-b284-88647f7aa3fd',
+    title: 'Portraits of Women (Naisenkuvia)',
+    genres: [ 'Bildungsroman', 'Personal Development', 'History', 'Cookbook' ],
+    publicationDate: '11/15/1952',
+    publisher: 'Yadel',
+    summary: 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n' +
+      '\n' +
+      'Sed ante. Vivamus tortor. Duis mattis egestas metus.',
+    isbn: '076113498-0',
+    language: 'Quechua',
+    pageCount: 4,
+    price: 46.37,
+    format: [ 'E-Book', 'Hardcover' ],
+    author: 'Haley Darker'
+  },
+  {
+    id: '01fd608f-290f-4ffc-8b2f-9ff2820aa5a4',
+    title: 'Dream House',
+    genres: [ 'Children’s', 'Southern Gothic Fiction', 'Self-help', 'Horror' ],
+    publicationDate: '7/25/1954',
+    publisher: 'Eadel',
+    summary: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n' +
+      '\n' +
+      'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n' +
+      '\n' +
+      'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',
+    isbn: '993268998-X',
+    language: 'Kashmiri',
+    pageCount: 370,
+    price: 96.44,
+    format: [ 'Paperback' ],
+    author: 'Stesha Enoksson'
+  },
+  {
+    id: '7bb86a46-4ce8-433d-827c-07e6203fe36f',
+    title: 'Joan of Paris',
+    genres: [
+      'Thriller',
+      'Families & Relationships',
+      'Fiction',
+      'Motivational'
+    ],
+    publicationDate: '7/24/1964',
+    publisher: 'Wordpedia',
+    summary: 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n' +
+      '\n' +
+      'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n' +
+      '\n' +
+      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.',
+    isbn: '580254919-X',
+    language: 'Northern Sotho',
+    pageCount: 597,
+    price: 6.07,
+    format: [ 'Hardcover', 'E-Book' ],
+    author: 'Leonhard Tooher'
+  },
+  {
+    id: 'd60ebca0-091f-48dc-8b0d-00b03a18dc7c',
+    title: 'Kidulthood',
+    genres: [ 'Horror', 'Fiction', 'Romance', 'Mystery' ],
+    publicationDate: '10/26/1994',
+    publisher: 'Skyble',
+    summary: 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n' +
+      '\n' +
+      'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.',
+    isbn: '836196657-9',
+    language: 'Korean',
+    pageCount: 816,
+    price: 81.44,
+    format: [ 'Hardcover', 'E-Book', 'Paperback' ],
+    author: 'Paton Groucock'
+  },
+  {
+    id: '256aa91e-b8eb-4dc7-82af-f774df8c7fff',
+    title: 'Grayeagle',
+    genres: [ 'Families & Relationships', 'Historical fiction' ],
+    publicationDate: '12/12/1901',
+    publisher: 'Realblab',
+    summary: 'Sed ante. Vivamus tortor. Duis mattis egestas metus.\n' +
+      '\n' +
+      'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n' +
+      '\n' +
+      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.',
+    isbn: '693051452-7',
+    language: 'Gagauz',
+    pageCount: 803,
+    price: 9.49,
+    format: [ 'E-Book', 'Hardcover', 'Paperback' ],
+    author: 'Sheilakathryn Luebbert'
+  },
+  {
+    id: '21badfcb-8bc2-4ac1-bdbc-7b51848948de',
+    title: 'Abraham Lincoln',
+    genres: [ 'Fiction', 'Gothic', 'Art', 'Guide / How-to', 'Paranormal' ],
+    publicationDate: '2/17/2003',
+    publisher: 'Jaxbean',
+    summary: 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n' +
+      '\n' +
+      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n' +
+      '\n' +
+      'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.',
+    isbn: '022748492-4',
+    language: 'Kurdish',
+    pageCount: 584,
+    price: 6.85,
+    format: [ 'Paperback', 'Hardcover', 'E-Book' ],
+    author: 'Lottie Skinley'
+  },
+  {
+    id: 'd29f81b9-0959-4294-af5a-2182dc2cc1c5',
+    title: 'How to Succeed in Business Without Really Trying',
+    genres: [ 'Memoir', 'Families & Relationships' ],
+    publicationDate: '4/20/1969',
+    publisher: 'Livetube',
+    summary: 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n' +
+      '\n' +
+      'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',
+    isbn: '305091194-8',
+    language: 'Moldovan',
+    pageCount: 22,
+    price: 15.79,
+    format: [ 'Paperback' ],
+    author: 'Arda Linstead'
+  },
+  {
+    id: '8807d3d1-c148-4989-8298-fcffd9be14a6',
+    title: 'Fire-Eater (Tulennielijä)',
+    genres: [ 'Memoir', 'Gothic', 'Romance' ],
+    publicationDate: '1/9/1943',
+    publisher: 'Riffpath',
+    summary: 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n' +
+      '\n' +
+      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n' +
+      '\n' +
+      'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
+    isbn: '827138859-2',
+    language: 'Catalan',
+    pageCount: 203,
+    price: 27.38,
+    format: [ 'Paperback', 'E-Book' ],
+    author: 'Noby Lamberth'
+  },
+  {
+    id: '6fb2816a-926c-4b0c-b8ee-21fbb60aadfd',
+    title: 'Age of the Earth, The (A Idade da Terra)',
+    genres: [ 'Dystopian', 'Science Fiction' ],
+    publicationDate: '1/29/1942',
+    publisher: 'Vinte',
+    summary: 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n' +
+      '\n' +
+      'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n' +
+      '\n' +
+      'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
+    isbn: '114559246-5',
+    language: 'West Frisian',
+    pageCount: 751,
+    price: 14.06,
+    format: [ 'E-Book', 'Hardcover', 'Paperback' ],
+    author: 'Andriette Tremolieres'
+  },
+  {
+    id: '5165359b-11fb-4400-9676-4f257be96edc',
+    title: 'Godzilla: Tokyo S.O.S. (Gojira tai Mosura tai Mekagojira: Tôkyô S.O.S.)',
+    genres: [ 'Children’s', 'Art' ],
+    publicationDate: '5/28/1902',
+    publisher: 'Devshare',
+    summary: 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n' +
+      '\n' +
+      'Sed ante. Vivamus tortor. Duis mattis egestas metus.',
+    isbn: '041935927-3',
+    language: 'Estonian',
+    pageCount: 466,
+    price: 38.08,
+    format: [ 'Hardcover' ],
+    author: 'Galen Thorwarth'
+  },
+  {
+    id: '3d07557e-17cc-47b3-afd5-950657d3c48e',
+    title: 'Gone to Earth',
+    genres: [ 'Adventure', 'Self-help', 'Historical fiction', 'Contemporary' ],
+    publicationDate: '10/13/1948',
+    publisher: 'Blognation',
+    summary: 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n' +
+      '\n' +
+      'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
+    isbn: '250798735-9',
+    language: 'Swati',
+    pageCount: 427,
+    price: 44.71,
+    format: [ 'E-Book', 'Paperback', 'Hardcover' ],
+    author: 'Gay Stoffersen'
+  },
+  {
+    id: '7600783b-14a3-47cb-9289-5ebcad04e033',
+    title: 'Sweetest Thing, The',
+    genres: [ 'Romance' ],
+    publicationDate: '9/25/1954',
+    publisher: 'Oyondu',
+    summary: 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.',
+    isbn: '416104055-5',
+    language: 'Tetum',
+    pageCount: 964,
+    price: 28.52,
+    format: [ 'Hardcover', 'E-Book' ],
+    author: 'Amber Montfort'
+  },
+  {
+    id: 'aad59f1c-0c70-46f8-ac71-0b397f711e01',
+    title: 'Champagne',
+    genres: [ 'Thriller' ],
+    publicationDate: '6/5/1908',
+    publisher: 'Dynabox',
+    summary: 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n' +
+      '\n' +
+      'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.',
+    isbn: '303854645-3',
+    language: 'Papiamento',
+    pageCount: 604,
+    price: 66.94,
+    format: [ 'E-Book', 'Paperback' ],
+    author: 'Cheryl Borsay'
+  },
+  {
+    id: '821cb03a-955b-4e9a-8d4b-bef7c0c987f2',
+    title: 'Me, Myself & Irene',
+    genres: [
+      'Southern Gothic Fiction',
+      'Romance',
+      'Motivational',
+      'Historical fiction'
+    ],
+    publicationDate: '8/29/1909',
+    publisher: 'Skibox',
+    summary: 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n' +
+      '\n' +
+      'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n' +
+      '\n' +
+      'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',
+    isbn: '883898436-0',
+    language: 'Thai',
+    pageCount: 603,
+    price: 83.73,
+    format: [ 'Hardcover', 'Paperback' ],
+    author: 'Tybie Schoolcroft'
+  },
+  {
+    id: '651dc87a-e239-4b24-8c56-87f15dd01c4f',
+    title: 'Rabbit',
+    genres: [ 'Fiction', 'Cookbook' ],
+    publicationDate: '9/18/1957',
+    publisher: 'Lazzy',
+    summary: 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n' +
+      '\n' +
+      'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n' +
+      '\n' +
+      'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
+    isbn: '628939397-9',
+    language: 'Hindi',
+    pageCount: 148,
+    price: 65.7,
+    format: [ 'E-Book', 'Hardcover', 'Paperback' ],
+    author: 'Katti McClaren'
+  },
+  {
+    id: '3433b92d-84d7-4b76-8ba5-80eb0e8248a8',
+    title: 'Escuela de seducción',
+    genres: [ 'History', 'Children’s' ],
+    publicationDate: '1/27/1990',
+    publisher: 'Minyx',
+    summary: 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n' +
+      '\n' +
+      'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
+    isbn: '130290061-7',
+    language: 'Telugu',
+    pageCount: 236,
+    price: 5.76,
+    format: [ 'E-Book', 'Paperback', 'Hardcover' ],
+    author: 'Bella Menci'
+  },
+  {
+    id: '8a031d8a-4c8a-4377-baff-94b92d320c51',
+    title: 'Sherlock Holmes',
+    genres: [ 'Bildungsroman', 'Personal Development', 'Horror', 'Health' ],
+    publicationDate: '1/14/1920',
+    publisher: 'Twitterbridge',
+    summary: 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n' +
+      '\n' +
+      'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.',
+    isbn: '322559176-9',
+    language: 'West Frisian',
+    pageCount: 634,
+    price: 27.2,
+    format: [ 'E-Book', 'Hardcover' ],
+    author: 'Oswald MacLise'
+  },
+  {
+    id: '3171202b-358f-4eb1-a552-615c7f88113c',
+    title: 'Tokyo Drifter (Tôkyô nagaremono)',
+    genres: [
+      'Self-help',
+      'History',
+      'Romance',
+      'Families & Relationships',
+      'Travel'
+    ],
+    publicationDate: '12/20/1942',
+    publisher: 'Cogilith',
+    summary: 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n' +
+      '\n' +
+      'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.',
+    isbn: '147303081-1',
+    language: 'Portuguese',
+    pageCount: 122,
+    price: 1.19,
+    format: [ 'Paperback', 'Hardcover', 'E-Book' ],
+    author: 'Danya Mc Elory'
+  },
+  {
+    id: '88526385-551a-4dcf-91c1-7097ee4fb894',
+    title: 'Zarafa',
+    genres: [ 'Contemporary' ],
+    publicationDate: '8/17/1986',
+    publisher: 'Twitterworks',
+    summary: 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n' +
+      '\n' +
+      'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
+    isbn: '733531445-3',
+    language: 'Tamil',
+    pageCount: 770,
+    price: 7.07,
+    format: [ 'Hardcover' ],
+    author: 'Rois Fairman'
+  },
+  {
+    id: '7ce0601a-b820-4c26-b9d0-74faee75cb56',
+    title: 'Keep Your Distance',
+    genres: [ 'Travel', 'Adventure', 'Fiction', 'Self-help' ],
+    publicationDate: '9/11/2019',
+    publisher: 'Wikivu',
+    summary: 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
+    isbn: '251933302-2',
+    language: 'Icelandic',
+    pageCount: 810,
+    price: 44.74,
+    format: [ 'Paperback', 'Hardcover' ],
+    author: 'Benn Bulle'
+  },
+  {
+    id: '254a77b0-f055-4dc1-b9fa-3b23d811c8be',
+    title: 'Project X',
+    genres: [ 'Fiction', 'Adventure', 'Paranormal' ],
+    publicationDate: '9/16/1990',
+    publisher: 'Skilith',
+    summary: 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n' +
+      '\n' +
+      'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n' +
+      '\n' +
+      'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',
+    isbn: '631932579-8',
+    language: 'Irish Gaelic',
+    pageCount: 521,
+    price: 96.82,
+    format: [ 'E-Book', 'Hardcover', 'Paperback' ],
+    author: 'Bourke Dykins'
+  },
+  {
+    id: '8beead67-2370-4099-ba30-44f0ed524065',
+    title: "Gulliver's Travels",
+    genres: [ 'Horror', 'Historical fiction' ],
+    publicationDate: '5/16/2018',
+    publisher: 'Quaxo',
+    summary: 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n' +
+      '\n' +
+      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    isbn: '053318210-7',
+    language: 'Japanese',
+    pageCount: 557,
+    price: 84.93,
+    format: [ 'Hardcover', 'Paperback', 'E-Book' ],
+    author: 'Joshuah Chiene'
+  },
+  {
+    id: '623657cd-ba6e-4a0c-875c-b5d41ab65991',
+    title: 'Star Wars: The Clone Wars',
+    genres: [ 'Adventure', 'Bildungsroman' ],
+    publicationDate: '7/21/1955',
+    publisher: 'Myworks',
+    summary: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n' +
+      '\n' +
+      'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
+    isbn: '285272231-3',
+    language: 'English',
+    pageCount: 229,
+    price: 89.32,
+    format: [ 'Hardcover' ],
+    author: 'Lottie Skinley'
+  },
+  {
+    id: '705d7e24-15e9-4495-8d8d-02257dbec002',
+    title: 'Süperseks',
+    genres: [ 'Travel', 'Romance', 'Cookbook', 'Self-help', 'Horror' ],
+    publicationDate: '10/26/2022',
+    publisher: 'Twimbo',
+    summary: 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n' +
+      '\n' +
+      'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.\n' +
+      '\n' +
+      'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.',
+    isbn: '926694824-1',
+    language: 'Portuguese',
+    pageCount: 40,
+    price: 35.55,
+    format: [ 'Hardcover', 'Paperback' ],
+    author: 'Jedidiah Wehnerr'
+  },
+  {
+    id: '1443ee8f-29b6-4d13-bbd0-1cf466245ade',
+    title: 'Romero',
+    genres: [ 'Personal Development', 'Adventure', 'Southern Gothic Fiction' ],
+    publicationDate: '1/29/2014',
+    publisher: 'Avaveo',
+    summary: 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n' +
+      '\n' +
+      'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n' +
+      '\n' +
+      'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.',
+    isbn: '205874356-3',
+    language: 'Malagasy',
+    pageCount: 259,
+    price: 1.69,
+    format: [ 'E-Book' ],
+    author: 'Carl Goulbourn'
+  },
+  {
+    id: 'a0d5c70c-2133-4829-981a-48a9255da760',
+    title: 'Enchantment',
+    genres: [
+      'Motivational',
+      'Personal Development',
+      'Historical fiction',
+      'Science Fiction',
+      'Travel'
+    ],
+    publicationDate: '7/4/1968',
+    publisher: 'Skajo',
+    summary: 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',
+    isbn: '125141319-6',
+    language: 'Kurdish',
+    pageCount: 40,
+    price: 93.95,
+    format: [ 'Hardcover' ],
+    author: 'Gabey Carbin'
+  },
+  {
+    id: 'da380752-efb9-4598-8f8f-378c4311b312',
+    title: 'Thirst',
+    genres: [
+      'Dystopian',
+      'Self-help',
+      'Historical fiction',
+      'Horror',
+      'Contemporary'
+    ],
+    publicationDate: '8/2/1963',
+    publisher: 'Gigazoom',
+    summary: 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
+    isbn: '465415128-1',
+    language: 'English',
+    pageCount: 930,
+    price: 85.95,
+    format: [ 'E-Book', 'Hardcover', 'Paperback' ],
+    author: 'Paolina Backler'
+  },
+  {
+    id: 'a5ecec5f-0097-4beb-a9bd-058a03faab7e',
+    title: 'Fall of the Republic: The Presidency of Barack H. Obama',
+    genres: [
+      'Art',
+      'Guide / How-to',
+      'Motivational',
+      'Historical fiction',
+      'Contemporary'
+    ],
+    publicationDate: '11/23/1956',
+    publisher: 'Teklist',
+    summary: 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n' +
+      '\n' +
+      'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n' +
+      '\n' +
+      'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.',
+    isbn: '156195784-4',
+    language: 'New Zealand Sign Language',
+    pageCount: 40,
+    price: 1.63,
+    format: [ 'E-Book', 'Hardcover' ],
+    author: 'Caryl Grabert'
+  },
+  {
+    id: 'ec9775d4-10c0-46e8-aea6-cfca51071763',
+    title: 'About Last Night',
+    genres: [ 'Southern Gothic Fiction', 'Gothic', 'Art', 'Mystery', 'Travel' ],
+    publicationDate: '12/11/1914',
+    publisher: 'Browsetype',
+    summary: 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\n' +
+      '\n' +
+      'In congue. Etiam justo. Etiam pretium iaculis justo.\n' +
+      '\n' +
+      'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
+    isbn: '679512494-0',
+    language: 'Chinese',
+    pageCount: 262,
+    price: 4.27,
+    format: [ 'Paperback' ],
+    author: 'Jordan Stobbart'
+  },
+  {
+    id: '2e5e554c-dbc2-494c-827b-ed4cbb9e54e5',
+    title: 'One Percent, The',
+    genres: [ 'Travel', 'Paranormal', 'Mystery' ],
+    publicationDate: '1/3/1926',
+    publisher: 'Bubbletube',
+    summary: 'Fusce consequat. Nulla nisl. Nunc nisl.\n' +
+      '\n' +
+      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n' +
+      '\n' +
+      'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.',
+    isbn: '376330064-3',
+    language: 'Hindi',
+    pageCount: 75,
+    price: 60.61,
+    format: [ 'Paperback', 'Hardcover', 'E-Book' ],
+    author: 'Agretha Saltwell'
+  },
+  {
+    id: '28bc73e8-8c20-4f76-98b6-12a33c3ad821',
+    title: 'Ed and His Dead Mother',
+    genres: [ 'Dystopian' ],
+    publicationDate: '9/26/1947',
+    publisher: 'Ozu',
+    summary: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n' +
+      '\n' +
+      'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n' +
+      '\n' +
+      'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',
+    isbn: '426135272-9',
+    language: 'Greek',
+    pageCount: 962,
+    price: 12.13,
+    format: [ 'E-Book', 'Paperback' ],
+    author: 'Waite Karpfen'
+  },
+  {
+    id: 'b25fd534-7b3c-4a79-a416-98eb525315f7',
+    title: "Solomon Northup's Odyssey",
+    genres: [
+      'Adventure',
+      'Horror',
+      'Contemporary',
+      'Bildungsroman',
+      'Science Fiction'
+    ],
+    publicationDate: '9/6/1923',
+    publisher: 'Tazz',
+    summary: 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n' +
+      '\n' +
+      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',
+    isbn: '575507962-5',
+    language: 'Swahili',
+    pageCount: 264,
+    price: 61.77,
+    format: [ 'E-Book' ],
+    author: 'Pavlov Gueny'
+  },
+  {
+    id: '21ed7160-27ec-486c-a64b-3601c0c96cfb',
+    title: 'Passing Strange',
+    genres: [ 'Horror' ],
+    publicationDate: '1/22/1919',
+    publisher: 'Blogtag',
+    summary: 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',
+    isbn: '519923623-7',
+    language: 'Māori',
+    pageCount: 67,
+    price: 16.79,
+    format: [ 'Paperback' ],
+    author: 'Berry Trainor'
+  },
+  {
+    id: '03f3f7d8-ccf1-4a2a-97eb-ae6e8aa876a1',
+    title: 'Warrendale',
+    genres: [ 'History', 'Personal Development' ],
+    publicationDate: '4/2/1930',
+    publisher: 'Fatz',
+    summary: 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+    isbn: '284909530-3',
+    language: 'Tetum',
+    pageCount: 701,
+    price: 86.24,
+    format: [ 'E-Book', 'Paperback' ],
+    author: 'Melisandra Boothebie'
+  },
+  {
+    id: '3eaf1246-bb49-4b58-bbdd-58bfd1ffd365',
+    title: 'Very Harold & Kumar 3D Christmas, A',
+    genres: [ 'Travel' ],
+    publicationDate: '6/21/2018',
+    publisher: 'Eimbee',
+    summary: 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n' +
+      '\n' +
+      'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n' +
+      '\n' +
+      'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',
+    isbn: '625808349-8',
+    language: 'Icelandic',
+    pageCount: 610,
+    price: 78.89,
+    format: [ 'Paperback', 'E-Book' ],
+    author: 'Leonhard Tooher'
+  },
+  {
+    id: '0767b967-15d6-4c00-9e7d-c69a236e62b0',
+    title: 'Fun on a Weekend',
+    genres: [ 'Fiction', 'Health', 'Memoir', 'Cookbook', 'Dystopian' ],
+    publicationDate: '12/8/1959',
+    publisher: 'Rhycero',
+    summary: 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n' +
+      '\n' +
+      'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n' +
+      '\n' +
+      'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
+    isbn: '130952361-4',
+    language: 'Yiddish',
+    pageCount: 410,
+    price: 0.01,
+    format: [ 'Hardcover' ],
+    author: 'Brooke Adcock'
+  },
+  {
+    id: '98d3872c-67f2-4192-ab8e-e7686c58ced6',
+    title: 'Cat Returns, The (Neko no ongaeshi)',
+    genres: [ 'Self-help', 'Health', 'Memoir', 'Mystery', 'Travel' ],
+    publicationDate: '11/3/1926',
+    publisher: 'Mynte',
+    summary: 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n' +
+      '\n' +
+      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n' +
+      '\n' +
+      'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',
+    isbn: '995366437-4',
+    language: 'Dari',
+    pageCount: 761,
+    price: 78.73,
+    format: [ 'Paperback', 'E-Book' ],
+    author: 'Terrell Godbolt'
+  },
+  {
+    id: '9b36bc9e-7fae-491e-abf1-0caeeea5cf52',
+    title: 'Batman Returns',
+    genres: [ 'Science Fiction', 'Contemporary', 'Memoir' ],
+    publicationDate: '8/2/1911',
+    publisher: 'Cogilith',
+    summary: 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n' +
+      '\n' +
+      'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n' +
+      '\n' +
+      'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',
+    isbn: '244704739-8',
+    language: 'Khmer',
+    pageCount: 489,
+    price: 51.36,
+    format: [ 'Hardcover', 'E-Book', 'Paperback' ],
+    author: 'Madel Lergan'
+  },
+  {
+    id: '7dbfe3bc-1a39-4689-8fb5-bea44b637a3a',
+    title: 'Muppet Christmas: Letters to Santa, A',
+    genres: [
+      'Motivational',
+      'Science Fiction',
+      'Mystery',
+      'Self-help',
+      'Fiction'
+    ],
+    publicationDate: '3/11/1933',
+    publisher: 'Twimbo',
+    summary: 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.',
+    isbn: '878130915-5',
+    language: 'Gagauz',
+    pageCount: 213,
+    price: 19.95,
+    format: [ 'Paperback', 'E-Book' ],
+    author: 'Daphne Orrocks'
+  },
+  {
+    id: 'c540e08f-34c3-4017-9c2c-c342c87a9cb4',
+    title: 'Cosmonaut, The',
+    genres: [ 'Art' ],
+    publicationDate: '2/29/1908',
+    publisher: 'Quinu',
+    summary: 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',
+    isbn: '567591255-X',
+    language: 'Montenegrin',
+    pageCount: 375,
+    price: 48.09,
+    format: [ 'E-Book' ],
+    author: 'Oswald MacLise'
+  },
+  {
+    id: '91b1e81b-5191-433b-959e-5aa10f1ee626',
+    title: 'L: Change the World',
+    genres: [ 'Mystery', 'Self-help' ],
+    publicationDate: '9/27/2019',
+    publisher: 'Devpulse',
+    summary: 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n' +
+      '\n' +
+      'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.',
+    isbn: '189960841-9',
+    language: 'Moldovan',
+    pageCount: 222,
+    price: 4.54,
+    format: [ 'E-Book', 'Paperback' ],
+    author: 'Graehme Kleinholz'
+  },
+  {
+    id: '8ac66f3d-1f75-46e5-bd9d-c0e2a3078f50',
+    title: 'Bye Bye Braverman',
+    genres: [
+      'Personal Development',
+      'Romance',
+      'Adventure',
+      'Dystopian',
+      'Southern Gothic Fiction'
+    ],
+    publicationDate: '1/29/1969',
+    publisher: 'Youbridge',
+    summary: 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.',
+    isbn: '161622586-6',
+    language: 'Malay',
+    pageCount: 325,
+    price: 85.41,
+    format: [ 'Hardcover', 'E-Book', 'Paperback' ],
+    author: 'Bathsheba Hitcham'
+  },
+  {
+    id: 'ec34cbcf-ccd2-4902-864e-8d68f3647e01',
+    title: 'Bleak Moments',
+    genres: [ 'Contemporary', 'Adventure', 'Southern Gothic Fiction' ],
+    publicationDate: '9/17/2004',
+    publisher: 'Eabox',
+    summary: 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n' +
+      '\n' +
+      'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n' +
+      '\n' +
+      'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',
+    isbn: '727095524-7',
+    language: 'Macedonian',
+    pageCount: 81,
+    price: 91.8,
+    format: [ 'Hardcover', 'Paperback', 'E-Book' ],
+    author: 'Kirsteni Blench'
+  },
+  {
+    id: '51d2a5d1-ea91-4449-a292-053ef6c76240',
+    title: 'Strangers When We Meet',
+    genres: [
+      'Southern Gothic Fiction',
+      'Science Fiction',
+      'Personal Development',
+      'Motivational'
+    ],
+    publicationDate: '5/8/1990',
+    publisher: 'Feedfire',
+    summary: 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n' +
+      '\n' +
+      'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
+    isbn: '593085657-5',
+    language: 'Khmer',
+    pageCount: 977,
+    price: 41.9,
+    format: [ 'E-Book', 'Hardcover' ],
+    author: 'Garwood Mocquer'
+  },
+  {
+    id: 'c7d6360d-63e7-4e00-90b0-985b50a709aa',
+    title: 'Ladies of Leisure',
+    genres: [ 'Guide / How-to', 'Personal Development', 'Gothic', 'Horror' ],
+    publicationDate: '12/6/1938',
+    publisher: 'Wikivu',
+    summary: 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n' +
+      '\n' +
+      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.',
+    isbn: '040906232-4',
+    language: 'Korean',
+    pageCount: 393,
+    price: 40.64,
+    format: [ 'E-Book', 'Paperback', 'Hardcover' ],
+    author: 'Pavlov Gueny'
+  },
+  ... 900 more items
+]

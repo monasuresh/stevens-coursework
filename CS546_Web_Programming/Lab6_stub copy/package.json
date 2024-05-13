@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "usa-state-validator": "^1.0.6",
+    "uuid": "^9.0.1"
+  },
+  "name": "cs-546-lab-6",
+  "version": "1.0.0",
+  "description": "My lab 6 module",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Monica Suresh 20009795",
+  "license": "ISC"
+}

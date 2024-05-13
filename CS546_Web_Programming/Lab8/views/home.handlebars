@@ -1,0 +1,25 @@
+<!-- 
+This handlebar file will be rendered when the following route is hit: GET http://localhost:3000/
+ 
+ The title of the document should be "Marvel Character Finder". You should have the title set as the <title> element of the HTML document and as an h1 in your document.
+
+Your page should reference a CSS file, /public/site.css; this file should have at least 10 rulesets you must use at least 5 of them on this page. 
+
+You should have a main element, and inside of the main element have a p element with a brief (2-3 sentence description) of what your website does.
+
+Also inside the main element, you will have a form; this form will POST to /searchmarvelcharacters. This form will have an input and a label; You will give the input and name AND id of "searchCharacterByName".  The label should properly reference the same id as the input. You should also have a input with a type of submit that submits the form. 
+ -->
+<h1 class="title-text">{{title}}</h1>
+<p class="description-paragraph">
+    Introducing the Marvel Character Finder – your gateway to the Marvel Universe! With the power to search for
+    characters using their name or ID, you'll have character information right at your fingertips.
+    What's more, it presents a list of characters matching your search term. And when you click on a character, you'll
+    be transported to a treasure trove of comic book books featuring that character.
+</p>
+<form action="/searchmarvelcharacters" method="POST" class="search-character-form">
+    <label class="search-by-name-label" for="searchCharacterByName">
+        Search Character By Name
+    </label>
+    <input id="searchCharacterByName" type="text" name="searchCharacterByName" placeholder="Marvel Character">
+    <input type="submit" class="search-button" value="Search For Characters">
+</form>

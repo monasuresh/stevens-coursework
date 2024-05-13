@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Habit Tracker</title>
+    <link rel="stylesheet" href="/public/css/styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+    <p class="welcome-text">
+        Welcome Monica Suresh, the time is now: Fri Dec 08 2023 11:35:54 GMT-0500 (Eastern Standard Time). Your role in the system is: user
+    </p>
+
+
+    <a href="/logout" class="user-link">Logout</a>
+
+    <form action="/protected" method="POST" class="custom-form">
+        <div class="habit-container">
+            <label for="trackedHabitCheckBoxInput_0">
+                <input type="checkbox" id="trackedHabitCheckBoxInput_0"
+                    name="habits[0][trackedHabitCheckBoxInput]" value="65721a7496aa4e8cd5e9d742"
+                    onclick="toggleReminderInput(0)">
+                Brush Teeth
+            </label>
+
+            <input type="hidden" id="trackingInput_0" name="habits[0][trackingInput]" value="false">
+
+            <label for="reminderTimeInput_0" class="hidden">Reminder Time:</label>
+            <input type="time" id="reminderTimeInput_0" name="habits[0][reminderTimeInput]"
+                class="hidden">
+        </div>
+
+        <button type="submit" class="submit-button">Submit</button>
+    </form>
+</div>
+    <script type="text/javascript" src="/public/js/client_side_validation.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="/public/js/habit_scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <footer>(c) Group 3 CS 546 WN1</footer>
+</body>
+
+</html>

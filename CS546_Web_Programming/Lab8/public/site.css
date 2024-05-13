@@ -1,0 +1,157 @@
+/*This file should have 10 CSS rulesets */
+/* Style for the paragraph element */
+.title-text {
+    font-size: 50px;
+    color: #c51d1d;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.description-paragraph {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0c0cec;
+}
+
+form.search-character-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f78f3f;
+    text-align: center;
+}
+
+.search-by-name-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color:#504a4a
+}
+
+#searchCharacterByName {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.character-name {
+    font-size: 50px;
+    color: #f78f3f;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.character-list {
+    color: #007bff;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.character-title {
+    font-size: 50px;
+    color: #f78f3f;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.not-found {
+    font-size: 20px;
+    color: rgb(0, 26, 255);
+    margin-bottom: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.error {
+    font-size: 30px;
+    color: rgb(216, 5, 5);
+    margin-bottom: 20px;
+}
+
+.search-link {
+    font-size: 25px;
+    text-decoration: none;
+    color: #f00;
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.highlight-link {
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.highlight-link:hover {
+    color: #0056b3;
+}
+
+.character-article {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.character-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.character-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.character-description {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.character-comics-title {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.character-comic-item {
+    font-size: 16px;
+    color: #f78f3f;
+    margin-bottom: 10px;
+}
+
+

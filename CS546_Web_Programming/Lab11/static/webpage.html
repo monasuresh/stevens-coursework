@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Maze App</title>
+    <link rel="stylesheet" href="public/css/main.css">
+</head>
+
+<body>
+    <header>
+        <h1>TV Maze App</h1>
+    </header>
+    <main>
+        <form id="searchForm">
+            <label for="search_term">Search:</label>
+            <input type="text" id="search_term">
+            <button type="submit">Search Shows</button>
+        </form>
+        <p id="error"></p>
+        <ul id="showList" hidden></ul>
+        <div id="show" hidden></div>
+        <a href="/" id="homeLink" hidden>Back to All Shows</a>
+    </main>
+    <footer>
+        <p>Monica | 20009795</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="public/js/main.js"></script>
+</body>
+
+</html>

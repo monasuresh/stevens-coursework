@@ -1,0 +1,16 @@
+{{!--
+
+login form handlebar template
+
+--}}
+<form action="/login" method="POST" id="login-form">
+    <label class="email-address-input" for="emailAddressInput">Email Address</label>
+    <input id="emailAddressInput" type="email" name="emailAddressInput">
+    <label class="password-input" for="passwordInput">Password</label>
+    <input id="passwordInput" type="password" name="passwordInput">
+    <input type="submit" class="search-button" value="Login">
+</form>
+ <a href="/register" class="search-link">Click here to register!</a>
+{{#if isError}}
+<p class="error">{{message}}</p>
+{{/if}}

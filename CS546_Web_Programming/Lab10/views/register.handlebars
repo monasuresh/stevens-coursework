@@ -1,0 +1,27 @@
+{{!--
+
+registration handelbars
+
+--}}
+<form action="/register" method="POST" id="registration-form">
+    <label class="form-label" for="firstNameInput">First Name</label>
+    <input id="firstNameInput" type="text" name="firstNameInput">
+    <label class="form-label" for="lastNameInput">Last Name</label>
+    <input id="lastNameInput" type="text" name="lastNameInput">
+    <label class="form-label" for="emailAddressInput">Email Address</label>
+    <input id="emailAddressInput" type="email" name="emailAddressInput">
+    <label class="form-label" for="passwordInput">Password</label>
+    <input id="passwordInput" type="password" name="passwordInput">
+    <label class="form-label" for="confirmPasswordInput">Confirm Password</label>
+    <input id="confirmPasswordInput" type="password" name="confirmPasswordInput">
+    <label class="form-label" for="roleInput">Role</label>
+    <select name="roleInput" id="roleInput">
+        <option value="admin">Admin</option>
+        <option value="user">User</option>
+    </select>
+    <input type="submit" class="search-button" value="Register">
+</form>
+<a href="/login" class="search-link">Already have an account? Click here to log-in</a>
+{{#if isError}}
+<p class="error">{{message}}</p>
+{{/if}}
